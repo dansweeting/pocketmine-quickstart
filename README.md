@@ -1,6 +1,6 @@
 Manual pre-reqs
 
-- get a cloud host (e.g. AWS ec2, t2.micro)
+- get a cloud host instance (e.g. AWS ec2, t2.micro)
 - expose UDP for port 19132 (e.g. add firewall rule in ec2 security group)
 - install docker if not already there (https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
 
