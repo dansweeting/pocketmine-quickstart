@@ -10,6 +10,10 @@ Share your host's ip and port to join the game from a minecraft app.
 
 Most apps will enforce that players will need a gamertag to join.  
 
+Lookout for:
+You might get a warning about `Detected 1 files in /data or /plugins not owned by the user "pocketmine"!`
+Just follow the prompts about `chown`ing the data folder if so.
+
 Security note:
 The config overrides in `data/server.properties` are supposed to make every player who joins an op, 
 which I think is like an admin within the game.  A couple of posts/issues recommended this when I was
