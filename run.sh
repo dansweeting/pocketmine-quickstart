@@ -1,4 +1,7 @@
 #!/bin/bash -e
 
-mkdir -p plugins
-docker run -it -p 19132:19132/udp -v $PWD/data:/data -v $PWD/plugins:/plugins pmmp/pocketmine-mp
+port=$1
+
+PORT=${port:-19132}
+
+docker run -it -p $PORT:19132/udp -v $(pwd)/data:/data -v $PWD/plugins:/plugins pmmp/pocketmine-mp
