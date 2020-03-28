@@ -10,6 +10,17 @@ I opted for cloud-based free tier hosting, but this script will work with anythi
 This is a Minecraft: Pocket Edition server, so will work on the iPad + Android apps my kids use.
 Have not tested on the laptop, java-based Minecraft clients.
 
+**Online Safety**
+This is for responsible parents.  
+- This is a public, shared server
+- It's not browsable in any Minecraft app
+- You can only join by entering the host and port config from the apps
+- But anyone with those details will be able to join
+- Take care when sharing the server with others
+- Consider maintaining a whitelist of the gamertags for the friends you want to allow on (`./data/white-list.txt`)
+- Consider reviewing the logs that are output to `./data/server.log`, to understand who's playing
+- If in doubt, shut it down, spin up somewhere else 
+
 **Manual pre-reqs**
 
 - (optional) get a cloud host instance (e.g. AWS ec2, t2.micro)
