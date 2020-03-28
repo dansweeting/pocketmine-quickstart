@@ -23,7 +23,7 @@ This is for responsible parents.
 
 **Manual pre-reqs**
 
-- (optional) get a cloud host instance (e.g. AWS ec2, t2.micro)
+- (optional) get a cloud host instance (e.g. AWS ec2, t2.micro.  I used this AMI: `Amazon Linux AMI 2018.03.0.20200206.0 x86_64 HVM gp2`)
 - expose UDP for port 19132 (e.g. add firewall rule in ec2 security group)
 - install docker if not already there (https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
 - `git clone` this repo onto your running instance
