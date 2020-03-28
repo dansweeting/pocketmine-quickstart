@@ -16,7 +16,7 @@ This is for responsible parents.
 - It's not browsable in any Minecraft app
 - You can only join by entering the host and port config from the apps
 - But anyone with those details will be able to join
-- Take care when sharing the server with others
+- Take care when sharing the server with others: don't post your public server on social media unless you don't care who joins
 - Consider maintaining a whitelist of the gamertags for the friends you want to allow on (`./data/white-list.txt`)
 - Consider reviewing the logs that are output to `./data/server.log`, to understand who's playing
 - If in doubt, shut it down, spin up somewhere else 
